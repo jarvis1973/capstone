@@ -1,0 +1,124 @@
+/* Universal Styles */
+
+  html {
+    font-family: Helvetica, sans-serif;
+    font-size: 8px;
+    color: #484848;
+  }
+/* The Body Section */
+  body {
+    line-height: 1.4;
+  }
+
+/* The Header Section */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+
+  .logo img {
+   padding-left: 3rem;
+  }
+
+  .logo span {
+    font-size: 2rem;
+  }
+
+  .logo span strong {
+    font-weight: bold;
+  }
+
+  ul {
+    padding-right: 2rem;
+
+  }
+
+  ul li {
+    display: inline;
+    padding-right: 4rem;
+    font-size: 2rem;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    background-color: #C0C0C0;
+  }
+
+  .banner img {
+    padding: 4rem 3rem;
+    max-width: 60%;
+  }
+
+  .banner .learn h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  .banner .learn p {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .banner .start_here {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #505050;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+/* The Main Section */
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    padding: 4rem 3rem;
+  }
+
+  .practise {
+    display: inline;
+  }
+
+  .practise img {
+    max-width: 60%;
+  }
+
+  .practise h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 4rem;
+  }
+
+  .practise p {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }.
+
+  .practise span {
+    font-size: 1rem;
+    padding-top: 4rem;
+  }
+
+  .information {
+    max-width: 40%;
+
+  }
+
+  .information img {
+    height: auto;
+    max-width: 35%;
+  }
+
+/* The Footer Section */
