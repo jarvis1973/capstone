@@ -11,6 +11,9 @@
   }
 
 /* The Header Section */
+
+/* The Navigation Section */
+
   nav {
     display: flex;
     align-items: center;
@@ -46,6 +49,7 @@
     padding-right: 4rem;
     font-size: 2rem;
   }
+/* The Banner Section */
 
   .banner {
     display: flex;
@@ -80,6 +84,8 @@
   }
 
 /* The Main Section */
+
+/* The Information Section */
 
   .container {
     display: flex;
@@ -120,5 +126,9 @@
     height: auto;
     max-width: 35%;
   }
+
+/* The Courses Section */
+
+/* The Exhibit Section */
 
 /* The Footer Section */
