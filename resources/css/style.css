@@ -5,14 +5,16 @@
     font-size: 8px;
     color: #484848;
   }
-/* The Body Section */
+
+/* Body Section */
+
   body {
     line-height: 1.4;
   }
 
-/* The Header Section */
+/* Header Section */
 
-/* The Navigation Section */
+/* Navigation Section */
 
   nav {
     display: flex;
@@ -41,7 +43,6 @@
 
   ul {
     padding-right: 2rem;
-
   }
 
   ul li {
@@ -49,7 +50,11 @@
     padding-right: 4rem;
     font-size: 2rem;
   }
-/* The Banner Section */
+
+  .mobile {
+    display: none;
+  }
+/* Banner Section */
 
   .banner {
     display: flex;
@@ -83,9 +88,7 @@
     text-align: center;
   }
 
-/* The Main Section */
-
-/* The Information Section */
+/* Information Section */
 
   .container {
     display: flex;
@@ -93,24 +96,33 @@
     padding: 4rem 3rem;
   }
 
+  .practise, .information {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .practise {
     display: inline;
+    width: 60%;
+    height: 100%;
+    padding-right: 3rem;
   }
 
   .practise img {
-    max-width: 60%;
+    max-width: 100%;
   }
 
   .practise h1 {
     font-size: 4rem;
     font-weight: bolder;
     padding-top: 4rem;
+    text-align: left;
   }
 
   .practise p {
     font-size: 2rem;
     padding-top: 4rem;
-  }.
+  }
 
   .practise span {
     font-size: 1rem;
@@ -119,16 +131,188 @@
 
   .information {
     max-width: 40%;
-
   }
 
-  .information img {
+  .information {
+    width: 40%;
+    display: block;
+    border-left: 2px solid  #E8E8E8;
+  }
+
+  .data, .data1, .design, .now {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+  }
+
+  .data, .data1 {
+    padding: 2rem;
+    border-bottom: 4px solid #E8E8E8;
+  }
+
+  .data img, .data1 img {
     height: auto;
     max-width: 35%;
+    padding-right: 3rem;
   }
 
-/* The Courses Section */
+  .info, .data  {
+    font-size: 2rem;
+  }
 
-/* The Exhibit Section */
+  .data1 {
+    background-color: #E8E8E8;
+  }
 
-/* The Footer Section */
+  .info h3 {
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  .info p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0rem;
+  }
+
+  .info a {
+    text-decoration: none;
+  }
+
+/* Courses Section */
+
+  .grey {
+    background-color: lightgrey;
+    padding: 4rem 9rem;
+  }
+
+  .grey h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .courses {
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    margin: 4rem;
+  }
+
+  .courses img {
+    height: auto;
+    max-width: 35rem;
+  }
+
+  .courses h3, span, p {
+    padding-left: 2rem;
+  }
+
+  .courses h3 {
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top: 2rem;
+  }
+
+  .courses span {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .courses p {
+    padding-bottom: 3rem;
+  }
+
+/* Exhibit Section */
+
+  .thesis {
+    padding: 4rem 3rem;
+    border-bottom: thin solid lightgrey;
+  }
+
+  .thesis1 {
+    padding-top: 4rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .exhibit1 {
+    padding-right: 3rem;
+    width: 60%;
+  }
+
+  .exhibit1 video {
+    width: 100%;
+  }
+
+  .exhibit1 h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+  }
+
+  .exhibit1 p {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  .exhibit2 {
+    width: 40%;
+  }
+
+  .exhibit2 img {
+    height: auto;
+    width: 35%;
+    padding: 2rem;
+  }
+
+  .exhibit2 h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .exhibit2 p {
+    font-size: 2rem;
+  }
+
+  .design {
+    background-color: #C0C0C0;
+  }
+
+/* Footer Section */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+  }
+
+/* Media Query */
+
+  /*@media only screen and (max-width: 480px) {
+/* Header Section */
+    /*#logo, #menu {
+      display: none;
+    }
+
+     #mobile {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      height: 8rem;
+    }
+/* Banner Section */
+   /* #banner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }*/
