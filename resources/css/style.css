@@ -301,10 +301,11 @@
       width: 100%;
     }
 
-/* Header Section */
-    .logo, .menu {
+    .courses img, span, p, .practise, .exhibit2, .exhibit1 h3, p,.logo, .menu {
       display: none;
     }
+
+/* Header Section */
 
     .mobile {
       display: flex;
@@ -319,7 +320,6 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding-left: 0px;
       padding-bottom: 32px;
     }
 
@@ -353,19 +353,54 @@
 
 /* Courses Section */
 
+  .grey {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+  }
+
+  .grey h1 {
+    padding-bottom: 16px;
+  }
+
+  .courses {
+    background-color: #E0E0E0;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+  }
+
+  .courses h3 {
+    color: #787878;
+  }
 
 /* Exhibit Section */
 
+  .thesis {
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .exhibit1 {
+    padding-top: 16px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  .exhibit1 video {
+    max-width: 100%;
+  }
 
 /* Footer Section */
 
-    footer {
-      display: inline-flex;
-      justify-content: center;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      padding-left: 0px;
-      font-size: 1.7rem;
-    }
+
 
   }
