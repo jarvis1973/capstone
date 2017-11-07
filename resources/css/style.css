@@ -6,6 +6,12 @@
     color: #484848;
   }
 
+  h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+
 /* Body Section */
 
   body {
@@ -69,8 +75,6 @@
   }
 
   .banner .learn h1 {
-    font-weight: bolder;
-    font-size: 4rem;
     padding-bottom: 2rem;
   }
 
@@ -113,8 +117,6 @@
   }
 
   .practise h1 {
-    font-size: 4rem;
-    font-weight: bolder;
     padding-top: 4rem;
     text-align: left;
   }
@@ -184,12 +186,6 @@
   .grey {
     background-color: lightgrey;
     padding: 4rem 9rem;
-  }
-
-  .grey h1 {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bolder;
   }
 
   .item {
@@ -296,23 +292,80 @@
 
 /* Media Query */
 
-  /*@media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
+
+    .body {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+
 /* Header Section */
-    /*#logo, #menu {
+    .logo, .menu {
       display: none;
     }
 
-     #mobile {
+    .mobile {
       display: flex;
       align-items: center;
       margin-left: auto;
       margin-right: auto;
-      height: 8rem;
+      height: 64px;
     }
+
 /* Banner Section */
-   /* #banner {
+   .banner {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      padding-left: 0px;
+      padding-bottom: 32px;
     }
-  }*/
+
+    .banner img {
+      max-width: 100%;
+      height: auto;
+      padding: 0px;
+    }
+
+    .learn {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .learn h1 {
+      padding-left: 16px;
+    }
+
+    .learn p {
+      padding-top: 32px;
+      padding-bottom: 24px;
+    }
+
+    .start_here{
+      font-weight: bold;
+    }
+
+/* Information Section */
+
+
+
+/* Courses Section */
+
+
+/* Exhibit Section */
+
+
+/* Footer Section */
+
+    footer {
+      display: inline-flex;
+      justify-content: center;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 0px;
+      font-size: 1.7rem;
+    }
+
+  }
